@@ -1,8 +1,8 @@
 body {
-	font-family: 'Mukta', sans-serif;
+	font-family: 'Domine', serif;
 	margin: 0px;
 	text-align: center;
-	background-color: #8ec6c5;
+	background-color: #f4f4f4;
 }
 
 .container {
@@ -25,53 +25,80 @@ body {
 .card-white
 {
 	text-align: center;
-	box-shadow: 0px 0px 20px 0.1px rgba(0,0,0);
+	box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.1);
 	margin-top: 30px;
 	margin-bottom: 30px;
-	padding: 20px;
+	padding-top: 20px ;
+	padding-bottom: 40px;
 	border-radius: 1%;
-	background-color: #f4f4f4;
+	background-color: white;
 }
 
 .img-circle
 {
-	box-shadow: 0px 0px 10px 0.2px rgba(0,0,0);
+	box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.3);
 	border-radius: 50%;
-}
-
-h1, .description
-{
-	text-align : center;
 }
 
 h1
 {
 	font-size: 35px;
+	color: #202040;
 }
 
 h1, h2
 {
-	color: #8566aa;
+	font-family: 'Lato', sans-serif;
 }
 
 h2
 {
+
 	font-size: 23px;
+	color: #543864;
 }
 
+.button-form
+{
+	margin-top: 20px;
+}
 .button
 {	
+	font-family: 'Lato', sans-serif;
 	text-decoration: none;
 	color: white;
 	background-color: #8566aa;
-	padding: 5px 10px;
-	margin-top: 300px;
 	border-radius: 10px;
+	padding: 7px 12px;
 }
 
 .button:hover{
 	transition-duration: 0.3s;
-	background-color: #7FBA00;
+	background-color: #8ec6c5;
 }
 
+.contact{
+	font-size:60px;
+	color: #8566aa;
+}
 
+.contact:hover{
+	transition-duration: 0.3s;
+	color: #8ec6c5;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+li{
+	display: inline;
+	padding: 0 20px;
+}
+
+@media(max-width: 760px){
+	.container {
+		width: 600px;
+	}
+}
